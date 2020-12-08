@@ -4,8 +4,9 @@
 * As project interpreter point to poject_path/venv/Scripts/python.exe (required packages are already installed + it avoids conflicts with your own packages)
 * Run poject_path/Scripts/api.py
 * Go to any browser and visit one of those two urls:
-  *http://localhost:5000/predictauthor?filepath=<path to single txt file>,    Example: http://localhost:5000/predictauthor?filepath=C:/Users/Diego/Documents/NLP training/Data/inputFilesExamples/doc_id00001MWS.txt
-  *http://localhost:5000/predictauthor?folderpath=<path to folder with multiple txt files>,    Example: http://localhost:5000/predictauthor?folderpath=C:/Users/Diego/Documents/NLP training/Data/inputFilesExamples/
+
+ * **http://localhost:5000/predictauthor?filepath=<path to single txt file>**,    Example: http://localhost:5000/predictauthor?filepath=C:/Users/Diego/Documents/NLP training/Data/inputFilesExamples/doc_id00001MWS.txt
+ * **http://localhost:5000/predictauthor?folderpath=<path to folder with multiple txt files>**,    Example: http://localhost:5000/predictauthor?folderpath=C:/Users/Diego/Documents/NLP training/Data/inputFilesExamples/
 
 ### B) PROJECT STRUCTURE:
 * Scripts: This is the heart of the project where you will find the train script, 2 predictions scripts (via api and via python function) and the script for descriptive statistics.
