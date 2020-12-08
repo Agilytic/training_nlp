@@ -1,0 +1,17 @@
++
+Structure & ReadMe very clear
+Number of model tested and perf measures chosen and automatic selection
+Venv/requirement
+Good model performance
+Code well written (if name=main) and well documented, well annoted
+Feature selection
+Extensive plot
+Extensive data processing
+- Confusion around 'best model' and plots -> which model is deployed? GMB? GLM? H2O?-> guessing H20 from perf but should be in readme
+- Set up venv bit challenging
+- Model choice tend to overfitting, none of the selection measure can help spot it (ROC curve, accuracy thereshold curbe)
+Next steps
+- more clearly define import fucntion for readability import dataReading/from Utils import dataReading
+- Go further with text feature creation (LDA, Word2Vec...)
+- Average vs distribution
+Test model OnvVs Rest
